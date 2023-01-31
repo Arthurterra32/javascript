@@ -1,8 +1,11 @@
 function exibirTipo(limite) {
-    if (limite % 2 === 0) {
-        return "PAR"
+    for (let i = 0; i <= limite; i++) {
+        if (i % 2 === 0) {
+            console.log(i, "PAR")
+        } else {
+            console.log(i, "IMPAR")
+        }
     }
 }
 
-const tipo = exibirTipo(2)
-console.log(tipo)
+exibirTipo(5)
