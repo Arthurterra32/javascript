@@ -4,5 +4,5 @@ function exibirTipo(limite) {
     }
 }
 
-exibirTipo(2)
-console.log(exibirTipo)
+const tipo = exibirTipo(2)
+console.log(tipo)
