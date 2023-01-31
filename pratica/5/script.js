@@ -1,9 +1,7 @@
-function exibirPropiedades(filme) {
-    for (prop in obj) {
-        if (typeof obj[prop] === "string") {
+function exibirPropiedades(obj) {
+    for (prop in obj) 
+        if (typeof obj[prop] === "string") 
             console.log(prop, obj[prop])
-        }
-    }
 }
 
 const filme = {
