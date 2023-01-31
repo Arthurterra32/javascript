@@ -1,6 +1,8 @@
 function exibirPropiedades(filme) {
-    for (inicio = 0; inicio === 4; inicio++) {
-        console.log(filme.inicio)
+    for (prop in obj) {
+        if (typeof obj[prop] === "string") {
+            console.log(prop, obj[prop])
+        }
     }
 }
 
